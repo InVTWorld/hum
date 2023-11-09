@@ -39,13 +39,13 @@ function refreshCanvas() {
 // Records input direction
 document.addEventListener("keydown", arrowInput);
 function arrowInput(event) {
-  if (event.keyCode === 37) {
+  if (event.keyCode === 65) {
     input = "left";
-  } else if (event.keyCode === 38) {
+  } else if (event.keyCode === 87) {
     input = "up";
-  } else if (event.keyCode === 39) {
+  } else if (event.keyCode === 68) {
     input = "right";
-  } else if (event.keyCode === 40) {
+  } else if (event.keyCode === 83) {
     input = "down";
   }
 }
